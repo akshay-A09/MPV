@@ -1,5 +1,5 @@
 
-<?php $base_url="http://localhost/www/mukesh-patil-ventures/website/html/"; ?>
+<?php $base_url="http://localhost/web/mpv/git/MPV/"; ?>
 
 <meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
 <link href="<?php echo $base_url; ?>css/custom.bootstrap.min.css" media="all" rel="stylesheet" type="text/css">

@@ -4,32 +4,41 @@
 .curtains.facts {background: #fff;}
 .facts-counter-title {color: #000; text-shadow: none; font-weight: bold;}
  .tile img, .featured-work-box img{width: 100%; height: 100%; object-fit: cover;}
-.tile img {filter: grayscale(100%);}
-.tile img:hover {filter:grayscale(0)}
 .titleOT {position: absolute; width: 100%; max-width: 600px; top: 50%;left: 0; margin-left: 0; max-width: 100%;}
 .introduction-1 h1 {font-size: 53px;}
 .top-shadow {background: #115E77; opacity: 50%;}
 .facts-counter-number {font-weight: 800;}
 .featured-work-info p {padding: 0;}
 .featured-work-info span {font-weight: 800; color:#000}
-.sponsors-logo ul {display: flex; flex-wrap: wrap; align-content: space-around;justify-content: space-evenly; width: 100%;}
-.sponsors-logo img {width: 150px; height: 100px; object-fit: contain; }
-
+.sponsors-logo ul {display: flex; flex-wrap: wrap; align-content: space-around;justify-content: space-evenly; width: 100%;gap:60px 30px;}
+.sponsors-logo ul li{margin: auto;width: 16%;text-align: center;}
+.sponsors-logo img {width: fit-content; object-fit: contain;margin: auto; }
+.upper-page{background: #115E77;}
+.tile img{opacity: 1!important;visibility: visible!important;}
+.titleOT{pointer-events: none;}
+.reverse{ flex-flow: row-reverse;}
 /* Events */
-.event-img img{width: 100%; height: 100%; object-fit: fill;}
-.event-img {margin-left: -30px;}
+.event_min{display: flex;}
+.event_min .col-md-6{width: 100%;padding: 0;}
+.event_min .col-md-6:nth-child(2){display: flex;flex-wrap: wrap;}
+.event-img{width: 100%;}
+.event-details{width: 100%;}
+.event-img img{width: 100%; height: 100%; object-fit: fill;display: block;}
 .event-details p{padding:0;}
 .event-details h3 {font-weight: 700;
 font-size: 18px; letter-spacing: 1px;}
-.col-md-6  .event-details {margin: 0 0 0 -30px; background: #F2F2F2; padding: 60px;}
+.col-md-6  .event-details { background: #F2F2F2; padding: 60px;}
 .btn_bms a {background: #115E77; color: #fff;
  align-items: center; display: inline-flex; gap: 10px;padding: 10px 20px;}
+ #viewport{  mix-blend-mode: hard-light;}
  .btn_bms a span {text-transform: uppercase;}
 .btn_bms i {color:#fff}
 .btn_bms a, .view-btn a {cursor: pointer;}
 .view-btn a  {color: #115E77; font-weight: 500;}
 .view-btn {text-align: center;margin: 20px 0; text-transform: uppercase;}
 .mfc-image {text-align: center;}
+.flexBox{display: flex;}
+.flexBox .col-md-5{height: fit-content;margin: auto;}
 /* Events */
 
 

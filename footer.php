@@ -34,7 +34,7 @@
                 </div><!-- row end -->
                 <!-- row start -->
                 <div class="row footer-credits">
-                    <div class="navscroll bt-nav bt-nav-logo" data-idpage="page-home">
+                    <div class="navscroll " data-idpage="page-home">
                         <a href="#"><img alt="Logo Footer" src="img/mpv-logo-footer.png"></a>
                     </div><!-- social icons footer start -->
                     <div class="social-icons-wrapper">

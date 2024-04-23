@@ -419,7 +419,7 @@ Gateway to live musical experiences like never before.
 <h3>Photography / Portfolio</h3>
 </div><!-- row end -->
 <div class="dividerOT-featured-work-middle"></div>
-<div class="row event_min">
+<div class="event_min">
 <div class="col-md-6">
 <div class="event-img"><a href="#"><img src="img/upcoming-events/sajda-1.jpg"></a></div>
 </div>
@@ -468,7 +468,7 @@ Gateway to live musical experiences like never before.
 
 
 <div class="dividerOT-featured-work-middle"></div>
-<div class="row event_min">
+<div class="row event_min reverse">
 <div class="col-md-6">
 <div class="event-img"><a href="#"><img src="img/past-events/timeless-ghazal-2.jpg"></a></div>
 </div>
@@ -498,7 +498,7 @@ Gateway to live musical experiences like never before.
 
 
 <div class="dividerOT-featured-work-middle"></div>
-<div class="row event_min">
+<div class="row event_min reverse">
 <div class="col-md-6">
 <div class="event-img"><a href="#"><img src="img/past-events/shatjanma-shoditana-2.jpg"></a></div>
 </div>
@@ -724,12 +724,12 @@ Gateway to live musical experiences like never before.
 <h3>Photography / Portfolio</h3>
 </div><!-- row end -->
 <!-- row start -->
-<div class="row">
+<div class="row ">
 <!-- divider start -->
 <div class="dividerOT-services-middle"></div><!-- divider end -->
 </div><!-- row end -->
 <!-- row start -->
-<div class="row">
+<div class="row flexBox">
 <div class="col-md-5">
 <div class="mfc-image"><img src="img/logos/mfc.png"></div>
 </div><!-- divider start -->

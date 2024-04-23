@@ -403,12 +403,8 @@ $(function() {
 // 18. the Wall
 window.addEvent("domready", function() {
     var imagewall = [
-        ["img/artists/01.jpg", [
-            ["img/artists/01.jpg", "Item Name<br \/>\r\nCommercial / Stock"]
-        ]],
-        ["img/artists/02.jpg", [
-            ["img/artists/02.jpg", "Item Name<br \/>\r\nBeauty / Fashion"]
-        ]],
+        ["img/artists/01.jpg", []],
+        ["img/artists/02.jpg", []],
         ["img/artists/03.jpg", [
             ["img/artists/03.jpg", "Item Name<br \/>\r\nLife / Stories"]
         ]],
@@ -560,8 +556,8 @@ window.addEvent("domready", function() {
                     items[i].node.addEvents({
                         mouseenter: function(event) {
                             list.getChildren("li").setStyles({
-                                "visibility": "hidden",
-                                "opacity": 0
+                                // "visibility": "hidden",
+                                // "opacity": 0
                             });
                             stop = false;
                             if (imagewall[position][1].length) {
