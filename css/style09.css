@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.bg_grey {background: #F2F2F2;}
+.fa, .facts-counter-number {color: #F99C1C; text-shadow: none;}
+.curtains.facts {background: #fff;}
+.facts-counter-title {color: #000; text-shadow: none; font-weight: bold;}
+ .tile img, .featured-work-box img{width: 100%; height: 100%; object-fit: cover;}
+.tile img {filter: grayscale(100%);}
+.tile img:hover {filter:grayscale(0)}
+.titleOT {position: absolute; width: 100%; max-width: 600px; top: 50%;left: 0; margin-left: 0; max-width: 100%;}
+.introduction-1 h1 {font-size: 53px;}
+.top-shadow {background: #115E77; opacity: 50%;}
+.facts-counter-number {font-weight: 800;}
+.featured-work-info p {padding: 0;}
+.featured-work-info span {font-weight: 800; color:#000}
+.sponsors-logo ul {display: flex; flex-wrap: wrap; align-content: space-around;justify-content: space-evenly; width: 100%;}
+.sponsors-logo img {width: 150px; height: 100px; object-fit: contain; }
+
+/* Events */
+.event-img img{width: 100%; height: 100%; object-fit: fill;}
+.event-img {margin-left: -30px;}
+.event-details p{padding:0;}
+.event-details h3 {font-weight: 700;
+font-size: 18px; letter-spacing: 1px;}
+.col-md-6  .event-details {margin: 0 0 0 -30px; background: #F2F2F2; padding: 60px;}
+.btn_bms a {background: #115E77; color: #fff;
+ align-items: center; display: inline-flex; gap: 10px;padding: 10px 20px;}
+ .btn_bms a span {text-transform: uppercase;}
+.btn_bms i {color:#fff}
+.btn_bms a, .view-btn a {cursor: pointer;}
+.view-btn a  {color: #115E77; font-weight: 500;}
+.view-btn {text-align: center;margin: 20px 0; text-transform: uppercase;}
+.mfc-image {text-align: center;}
+/* Events */
+
+
+/* membership */
+#page-membership {background: #E4D27E;}
+.box_grid ul {display: grid; grid-template-columns: repeat(2, 1fr);    gap: 20px;}
+.box_grid ul li {background: #fff; gap: 10px; text-align: center; padding: 10px; border-radius: 20px;}
+.box_grid ul li p {text-align: center; margin:0}
+.alt .mp-heading {text-align: left; width: 72%; font-weight: normal; margin-bottom: 10px; padding: 0;}  
+.alt .mp-heading .get-behind {margin-top: -120px; color: #fff; z-index: -1; opacity: 1;  font-weight: 700;}
+.alt .mp-heading span {font-weight: 700;}
+.alt p {width: 72%; padding: 0;}
+/* membership */
+
+
+/* contact */
+.cont_del img {margin-right:10px;}
+.contact_col div a {margin-left: 20px;}
+.contact_col {margin-bottom: 20px;}
